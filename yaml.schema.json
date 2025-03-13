@@ -1937,7 +1937,7 @@
           "type": "object",
           "additionalProperties": false,
           "description": "Parameters for this action",
-          "required": ["path", "manifestPath"],
+          "required": ["path", "manifestPath", "outputDir", "typeSpecConfigPath"],
           "properties": {
             "path": {
               "type": "string",
@@ -1946,6 +1946,14 @@
             "manifestPath": {
               "type": "string",
               "description": "Path to manifest file"
+            },
+            "outputDir": {
+              "type": "string",
+              "description": "Path to output directory"
+            },
+            "typeSpecConfigPath": {
+              "type": "string",
+              "description": "Path to typespec config file"
             }
           }
         }
