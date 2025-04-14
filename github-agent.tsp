@@ -22,9 +22,12 @@ using TypespecCopilotSkills.Agents;
 
 namespace githubAgent {
   @service
-  @skill({ 
+  @skill(#{ 
     nameForHuman: "github agent", 
-    descriptionForModel: "github agent", 
+    descriptionForModel: "github agent",
+    privacyPolicyUrl: "https://test/privacy",
+    legalInfoUrl: "https://test/legal",
+    descriptionForHuman: "description for github agent"
   })
   @server("https://api.github.com", "github apis")
   namespace repair {
