@@ -30,7 +30,7 @@ namespace githubAgent {
     descriptionForHuman: "description for github agent"
   })
   @server("https://api.github.com", "github apis")
-  namespace repair {
+  namespace listRepos {
     /** 
     some description for the repair service
     */
