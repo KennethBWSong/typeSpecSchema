@@ -22,7 +22,7 @@ using TypespecCopilotSkills.Agents;
 
 namespace githubAgent {
   @service
-  @skill(#{ 
+  @actions(#{ 
     nameForHuman: "github agent", 
     descriptionForModel: "github agent",
     privacyPolicyUrl: "https://test/privacy",
