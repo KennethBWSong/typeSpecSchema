@@ -1,13 +1,13 @@
 import "@typespec/http"; 
 import "@typespec/openapi3"; 
-import "@microsoft/typespec-copilot-skills";
+import "@microsoft/typespec-m365-copilot";
 
-using TypeSpec.Http; 
-using TypespecCopilotSkills; 
-using TypespecCopilotSkills.Agents; 
+using TypeSpec.Http;
+using TypeSpec.M365.Copilot.Agents;
+using TypeSpec.M365.Copilot.Actions;
 
 @agent(
-  "github-agent",
+  "github-agent0507",
   "Declarative agent created with Teams Toolkit" 
 ) 
 
